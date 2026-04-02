@@ -73,7 +73,7 @@ ul { list-style: none; }
   height: 52px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  border-radius: 6px;
 }
 .logo-img-footer {
   height: 60px;
@@ -145,8 +145,9 @@ ul { list-style: none; }
 .hero-slide {
   position: absolute;
   inset: 0;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
   opacity: 0;
   transition: opacity 1.2s ease;
 }
