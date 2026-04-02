@@ -70,13 +70,13 @@ ul { list-style: none; }
   align-items: center;
 }
 .logo-img {
-  height: 52px;
+  height: 56px;
   width: auto;
   object-fit: contain;
-  border-radius: 6px;
+  filter: brightness(0) invert(1);
 }
 .logo-img-footer {
-  height: 60px;
+  height: 64px;
 }
 .nav-links {
   display: flex;
