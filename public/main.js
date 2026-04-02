@@ -30,9 +30,20 @@
     });
   });
 
+  // Hero slideshow
+  var slides = document.querySelectorAll('.hero-slide');
+  if (slides.length > 1) {
+    var currentSlide = 0;
+    setInterval(function () {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }, 5000);
+  }
+
   // Scroll-triggered fade-in animations
   var animEls = document.querySelectorAll(
-    '.service-card, .reason, .stat, .about-text, .contact-info, .contact-form-wrap'
+    '.service-card, .reason, .stat, .about-text, .contact-info, .contact-form-wrap, .gallery-item'
   );
   animEls.forEach(function (el) {
     el.classList.add('fade-in');
