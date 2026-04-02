@@ -43,7 +43,7 @@
 
   // Scroll-triggered fade-in animations
   var animEls = document.querySelectorAll(
-    '.service-card, .reason, .stat, .about-text, .contact-info, .contact-form-wrap, .gallery-item'
+    '.service-card, .reason, .stat, .about-text, .contact-info, .contact-form-wrap, .gallery-item, .review-card'
   );
   animEls.forEach(function (el) {
     el.classList.add('fade-in');
