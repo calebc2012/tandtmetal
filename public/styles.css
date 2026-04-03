@@ -747,7 +747,7 @@ ul { list-style: none; }
   .about-grid { grid-template-columns: 1fr; gap: 40px; }
   .services-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: 1fr; }
-  .gallery-item img { aspect-ratio: auto; }
+  .gallery-item img { aspect-ratio: 4 / 3; }
   .reasons-grid { grid-template-columns: 1fr; }
   .reviews-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
